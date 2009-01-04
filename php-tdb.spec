@@ -5,7 +5,7 @@
 Summary:	Trivial DB bindings
 Name:		php-%{modname}
 Version:	1.0.0
-Release:	%mkrel 3
+Release:	%mkrel 4
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/tdb/
@@ -14,7 +14,7 @@ Requires(pre): rpm-helper
 Requires(postun): rpm-helper
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	file
-BuildRequires:	libtdb-devel
+BuildRequires:	tdb-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
