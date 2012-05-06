@@ -10,6 +10,7 @@ Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/tdb/
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
+Patch0:		tdb-1.0.0-php54x.diff
 Requires(pre): rpm-helper
 Requires(postun): rpm-helper
 BuildRequires:	php-devel >= 3:5.2.0
@@ -24,6 +25,8 @@ This extension provides bindings for Trivial DB.
 
 %setup -q -n %{modname}-%{version}
 [ "../package*.xml" != "/" ] && mv ../package*.xml .
+
+%patch0 -p0
 
 # fix permissions
 find . -type f | xargs chmod 644
