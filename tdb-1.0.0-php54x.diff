@@ -1,0 +1,11 @@
+--- tdb.c	2008-04-18 09:39:21.000000000 +0200
++++ tdb.c.oden	2012-05-06 10:35:15.556456692 +0200
+@@ -152,7 +152,7 @@ static PHP_FUNCTION(tdb_open)
+ 		return;
+ 	}
+ 
+-#if PHP_MAJOR_VERSION < 6
++#if PHP_API_VERSION < 20100412
+ 	if (file_len && PG(safe_mode) && (!php_checkuid(file, NULL, CHECKUID_CHECK_FILE_AND_DIR))) {
+ 		RETURN_FALSE;
+ 	}
