@@ -82,3 +82,91 @@ rm -rf %{buildroot}
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/php.d/%{inifile}
 %attr(0755,root,root) %{_libdir}/php/extensions/%{soname}
 
+
+
+%changelog
+* Sun May 06 2012 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-21mdv2012.0
++ Revision: 796993
+- fix build
+- rebuild for php-5.4.x
+
+* Sun Jan 15 2012 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-20
++ Revision: 761335
+- rebuild
+
+* Wed Aug 24 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-19
++ Revision: 696480
+- rebuilt for php-5.3.8
+
+* Fri Aug 19 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-18
++ Revision: 695475
+- rebuilt for php-5.3.7
+
+* Sat Mar 19 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-17
++ Revision: 646694
+- rebuilt for php-5.3.6
+
+* Sat Jan 08 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-16mdv2011.0
++ Revision: 629885
+- rebuilt for php-5.3.5
+
+* Mon Jan 03 2011 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-15mdv2011.0
++ Revision: 628199
+- ensure it's built without automake1.7
+
+* Wed Nov 24 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-14mdv2011.0
++ Revision: 600540
+- rebuild
+
+* Sun Oct 24 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-13mdv2011.0
++ Revision: 588877
+- rebuild
+
+* Fri Mar 05 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-12mdv2010.1
++ Revision: 514680
+- rebuilt for php-5.3.2
+
+* Sat Jan 02 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-11mdv2010.1
++ Revision: 485492
+- rebuilt for php-5.3.2RC1
+
+* Sat Nov 21 2009 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-10mdv2010.1
++ Revision: 468263
+- rebuilt against php-5.3.1
+
+* Wed Sep 30 2009 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-9mdv2010.0
++ Revision: 451365
+- rebuild
+
+* Sun Jul 19 2009 Raphaël Gertz <rapsys@mandriva.org> 1.0.0-8mdv2010.0
++ Revision: 397619
+- Rebuild
+
+* Mon May 18 2009 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-7mdv2010.0
++ Revision: 377035
+- rebuilt for php-5.3.0RC2
+
+* Sun Mar 01 2009 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-6mdv2009.1
++ Revision: 346665
+- rebuilt for php-5.2.9
+
+* Tue Feb 17 2009 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-5mdv2009.1
++ Revision: 341829
+- rebuilt against php-5.2.9RC2
+
+* Sun Jan 04 2009 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-4mdv2009.1
++ Revision: 324858
+- rebuild
+- rebuilt against php-5.2.7
+
+* Fri Jul 18 2008 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-2mdv2009.0
++ Revision: 238440
+- rebuild
+
+* Sun Apr 20 2008 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-1mdv2009.0
++ Revision: 195868
+- import php-tdb
+
+
+* Sun Apr 20 2008 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-1mdv2009.0
+- initial Mandriva package
