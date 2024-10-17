@@ -8,7 +8,7 @@ Version:	1.0.0
 Release:	22
 Group:		Development/PHP
 License:	PHP License
-URL:		http://pecl.php.net/package/tdb/
+URL:		https://pecl.php.net/package/tdb/
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 Patch0:		tdb-1.0.0-php54x.diff
 Requires(pre): rpm-helper
