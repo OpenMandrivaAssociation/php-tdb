@@ -13,6 +13,11 @@ Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 Patch0:		tdb-1.0.0-php54x.diff
 Requires(pre): rpm-helper
 Requires(postun): rpm-helper
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	file
 BuildRequires:	tdb-devel
